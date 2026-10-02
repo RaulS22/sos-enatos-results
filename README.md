@@ -2,49 +2,29 @@
 
 ## About data used at this work 
 
-This work has been done by using open data from INGV.
-At first, our aim was to process seismic data from SoS Enatos region.
-With the sucess of our preliminary analysis, and having stablished a
-method, we are extending our analysis to the Virgo Network.
+This work has been done by using open data from INGV. At first, our aim was to process seismic data from SoS Enatos region. With the sucess of our preliminary analysis, and having stablished a method, we are extending our analysis to the Virgo Network.
 
-Data available at: https://eida.ingv.it/en/ at the getdata section.
-One can download each day by searching for MN-SENA and listing the 
-specific channels.
+Data available at: https://eida.ingv.it/en/ at the getdata section. One can download each day by searching for MN-SENA and listing the specific channels.
 
-The most efficient way to obtaining data is by using fdsnwsscripts.
-The file [sos-enatos.sh](sos-enatos.sh) provides a way to download the
-SoS-Enatos data for SENA stations and HHZ channel from 2022 to 2025.
+The most efficient way to obtaining data is by using fdsnwsscripts. The file [sos-enatos.sh](sos-enatos.sh) provides a way to download the SoS-Enatos data for SENA stations and HHZ channel from 2022 to 2025.
 
-We are very thankful for the the [fdsnwsscripts](https://github.com/GEOFN/fdsnws_scripts)
-project because we could stablish a more uniform and efficient way to
-obtain the data rather than just downloading file by file at the [eida getdata](https://eida.ingv.it/en/)
+We are very thankful for the the [fdsnwsscripts](https://github.com/GEOFN/fdsnws_scripts) project because we could stablish a more uniform and efficient way to obtain the data rather than just downloading file by file at the [eida getdata](https://eida.ingv.it/en/).
 
 ## Required packages
 
 Since this work makes use of various libraries, we higly recomend using a virtual
 environment.
 
-The main package for processing seismic data is [obspy](https://docs.obspy.org/) 
+The main package for processing seismic data is [obspy](https://docs.obspy.org/).We use [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [scipy](https://scipy.org/pt/) and [matplotlib](https://matplotlib.org/) in most of the codes. The [multiprocessing](https://docs.python.org/3/library/multiprocessing) was used in some attempts to paralelize processes. The [gwpy](https://gwpy.readthedocs.io/en/stable/) is the main reference for the qtransform. We use [sci-kit learn](https://scikit-learn.org/) to perform tSNE analysis and [umap](https://umap-learn.readthedocs.io/en/latest/) to perform UMAP analysis.
 
-We use [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [scipy](https://scipy.org/pt/) and [matplotlib](https://matplotlib.org/) in most of the codes.
-
-The [multiprocessing](https://docs.python.org/3/library/multiprocessing) was used in some attempts to paralelize processes.
-
-The [gwpy](https://gwpy.readthedocs.io/en/stable/) is the main reference for the qtransform.
-
-We use [sci-kit learn](https://scikit-learn.org/) to perform tSNE analysis.
-
-We use [umap](https://umap-learn.readthedocs.io/en/latest/) to perform UMAP analysis.
-
-These are the main packages, but a complete report of the packages used at the virtual envoironment of VirgoBRET
-(from a simple pip list command) are available at the file [packages.txt](packages.txt)
+These are the main packages, but a complete report of the packages used at the virtual envoironment of this project (from a simple pip list command) are available at the file [packages.txt](packages.txt)
 
 ## Folders and files
 
 There is a folder "year_MNSENA_results_cut" which contains a subdirectory folder for each year "2022",
 "2023", "2024" and "2025". Each of them contains another subfolder "SENA/HHZ". These contain another one at 
 the format "mon_year" (eg.: jan_2022). These folders contain the PDF files for each of the q-Transforms.
-An example of name is "qtransform_20220401_000022.pdf", which stands for the 22nd q-Transform of April 1st 2022.
+An example of name is "qtransform_20220401_000022.pdf", which stands for the 23rd q-Transform of April 1st 2022.
 All of this has come in hand to make an analysis of the results.
 
 
