@@ -1,6 +1,5 @@
 # sos-enatos-results
 
-
 ## About data used at this work 
 
 This work has been done by using open data from INGV.
@@ -19,6 +18,18 @@ SoS-Enatos data for SENA stations and HHZ channel from 2022 to 2025.
 We are very thankful for the the [fdsnwsscripts](https://github.com/GEOFN/fdsnws_scripts)
 project because we could stablish a more uniform and efficient way to
 obtain the data rather than just downloading file by file at the [eida getdata](https://eida.ingv.it/en/)
+
+## Required packages
+
+Since this work makes use of various libraries, we higly recomend using a virtual
+environment. 
+
+The main package for processing seismic data is [obspy](https://docs.obspy.org/) 
+We use [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [scipy](https://scipy.org/pt/) and [matplotlib](https://matplotlib.org/)
+The [multiprocessing](https://docs.python.org/3/library/multiprocessing) was used in some attempts to paralelize processes
+The [gwpy](https://gwpy.readthedocs.io/en/stable/) is the main reference for the qtransform
+We use [sci-kit learn](https://scikit-learn.org/) to perform tSNE analysis
+We use [umap](https://umap-learn.readthedocs.io/en/latest/) to perform UMAP analysis
 
 ### Aknowledgments 
 
