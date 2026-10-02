@@ -25,11 +25,19 @@ Since this work makes use of various libraries, we higly recomend using a virtua
 environment. 
 
 The main package for processing seismic data is [obspy](https://docs.obspy.org/) 
+
 We use [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [scipy](https://scipy.org/pt/) and [matplotlib](https://matplotlib.org/)
+
 The [multiprocessing](https://docs.python.org/3/library/multiprocessing) was used in some attempts to paralelize processes
+
 The [gwpy](https://gwpy.readthedocs.io/en/stable/) is the main reference for the qtransform
+
 We use [sci-kit learn](https://scikit-learn.org/) to perform tSNE analysis
+
 We use [umap](https://umap-learn.readthedocs.io/en/latest/) to perform UMAP analysis
+
+These are the main packages, but a complete report of the packages used at the virtual envoironment of VirgoBRET
+(from a simple pip list command) are available at the file [packages.txt](packages.txt)
 
 ### Aknowledgments 
 
@@ -41,6 +49,6 @@ providing the computational resources whenever was necessary.
 
 ### Authors
 
-Assis-Santos R.<sup>1<sup>, Pinto F. A.<sup>2<sup>, Pompeia P. J.<sup>1<sup>, Melo C. A. M.<sup>2<sup>
-<sup>1<sup>Instituto Tecnológico de Aeronáutica
-<sup>2<sup>Universidade Federal de Alfenas
+Assis-Santos R.<sup>1<\sup>, Pinto F. A.<sup>2<\sup>, Pompeia P. J.<sup>1<\sup>, Melo C. A. M.<sup>2<\sup>
+<sup>1<\sup>Instituto Tecnológico de Aeronáutica
+<sup>2<\sup>Universidade Federal de Alfenas
