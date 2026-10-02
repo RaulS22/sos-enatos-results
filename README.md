@@ -54,14 +54,14 @@ user have already tested different hyperparameters for tSNE and UMAP and has arr
 
 ### Aknowledgments 
 
-We are thankful for GEOFN for the project fdsnwsscripts, which gave us
-a very efficient way to obtain uniform data.
-
-The authors are also thankful to [LAB-CCAM](https://www.pgfis.ita.br/post/lab-ccam) for
+We are thankful for [GEOFN](https://geofon.gfz.de/) for the project fdsnwsscripts, which gave us
+a very efficient way to obtain uniform data. The authors are also thankful to [LAB-CCAM](https://www.pgfis.ita.br/post/lab-ccam) for
 providing the computational resources whenever was necessary.
 
 ### Authors
 
 Assis-Santos R.<sup>1</sup>, Pinto F. A.<sup>2</sup>, Pompeia P. J.<sup>1</sup>, Melo C. A. M.<sup>2</sup>
+
 <sup>1</sup>Instituto Tecnológico de Aeronáutica
+
 <sup>2</sup>Universidade Federal de Alfenas
