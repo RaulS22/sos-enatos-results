@@ -60,8 +60,6 @@ providing the computational resources whenever was necessary.
 
 ### Authors
 
-Assis-Santos R.<sup>1</sup>, Pinto F. A.<sup>2</sup>, Pompeia P. J.<sup>1</sup>, Melo C. A. M.<sup>2</sup>
+Assis-Santos R.<sup>1</sup>, Pinto F. A.<sup>2</sup>, Pompeia P. J.<sup>1</sup>, Melo C. A. M.<sup>2</sup>, Tosta e Melo I.<sup>3</sup>, VirgoBR
 
-<sup>1</sup>Instituto Tecnológico de Aeronáutica
-
-<sup>2</sup>Universidade Federal de Alfenas
+<sup>1</sup>Instituto Tecnológico de Aeronáutica, <sup>2</sup>Universidade Federal de Alfenas, <sup>3</sup>University of Catania
